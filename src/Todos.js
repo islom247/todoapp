@@ -10,7 +10,7 @@ const Todos = ({ todos, deleteToDo }) => {
       );
     })
   ) : (
-    <p className="center">You have no todo's left, yay</p>
+    <p className="center">You have no todo's left, yay!</p>
   );
   return <div className="todos collection">{toDoList}</div>;
 };
